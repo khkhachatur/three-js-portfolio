@@ -151,14 +151,15 @@ body {
   }
 }
 
-.waving-hand {
-  animation-name: wave-animation;
-  animation-duration: 2.5s;
+.car-simulation {
+  animation-name:slide;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  transform-origin: 70% 70%;
+  height: 60px;
+width: 60px;
+  /* transform-origin: 70% 70%; */
   display: inline-block;
 }
-
 .arrow-gradient {
   background-image: linear-gradient(
     to right,
@@ -169,29 +170,29 @@ body {
   );
 }
 
-@keyframes wave-animation {
+@keyframes slide {
   0% {
     transform: rotate(0deg);
+ translate: 10vw 0;
+}
+  10% {
+    transform: rotate(-10deg);
+    
   }
-  15% {
-    transform: rotate(14deg);
-  }
-  30% {
-    transform: rotate(-8deg);
-  }
-  40% {
-    transform: rotate(14deg);
+  25% {
+    transform: rotate(0deg);
   }
   50% {
-    transform: rotate(-4deg);
+    translate: 70vw 0;
+    transform: rotateY(180deg); 
   }
-  60% {
-    transform: rotate(10deg);
-  }
-  70% {
-    transform: rotate(0deg);
+  
+  90% {
+    transform: rotateY(180deg);
+
   }
   100% {
-    transform: rotate(0deg);
+    translate: 10vw 0;
+
   }
 }
