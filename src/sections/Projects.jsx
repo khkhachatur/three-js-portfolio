@@ -4,7 +4,7 @@ import { Center } from '@react-three/drei';
 import { myProjects } from '../constants/index.js';
 import CanvasLoader from '../components/Loading.jsx';
 import DemoComputer from '../components/DemoComputer.jsx';
-import { OrbitControls } from 'three-stdlib';
+// import { OrbitControls } from 'three-stdlib';
 
 const Projects = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
