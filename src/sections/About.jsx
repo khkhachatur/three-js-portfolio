@@ -20,14 +20,22 @@ const About = () => {
           <div className="grid-container">
             <img src="/assets/grid1.png" className="w-full sm:h-[267px] h-fit object-contain" alt="grid1" />
             <p className="grid-headtext">Hi I am Khachatur</p>
-            <p className="grid-subtext">i am going crazy i need to get a good job and finally i can go to see her</p>
+            <p className="grid-subtext">
+              Frontend Developer with hands-on experience building responsive, interactive, and visually engaging web
+              applications. Skilled in modern JavaScript frameworks, UI/UX design, and animation libraries.
+            </p>
           </div>
         </div>
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img src="assets/grid2.png" className="w-full sm:h-[267px] h-fit object-contain" alt="grid-2" />
             <div className="grid-headtext">Tech Stack</div>
-            <div className="grid-subtext">I specialize in something</div>
+            <div className="grid-subtext">
+              Frontend: React, Vite, Next.js, JavaScript (ES6+), TypeScript <br />
+              UI & Styling: Tailwind CSS, Responsive Design, Figma-to-code <br />
+              Animations: GSAP, Three.js <br />
+              Workflow: Git/GitHub, REST APIs
+            </div>
           </div>
         </div>
 
@@ -61,8 +69,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                Passionate about delivering clean, performant, and user-friendly digital experiences by combining
+                development skills with a keen eye for design.
               </p>
             </div>
           </div>

@@ -48,14 +48,16 @@ const Projects = () => {
                 ))}
               </div>
             </div>
-            <a
-              href={currentProject.href}
-              className="flex items-center hover-pointer gap-5 text-white-500"
-              target="_blank"
-              rel="noreferrer">
-              <p>Live Site</p>
-              <img src="assets/arrow-up.png" alt="arrow" className="w-4 h-4" />
-            </a>
+            {currentProject.href && currentProject.href.trim() !== '' && (
+              <a
+                href={currentProject.href}
+                className="flex items-center hover:pointer gap-5 text-white-500"
+                target="_blank"
+                rel="noreferrer">
+                <p>Live Site</p>
+                <img src="assets/arrow-up.png" alt="arrow" className="w-4 h-4" />
+              </a>
+            )}
           </div>
           <div className="flex justify-between gap-7">
             <button className="arrow-btn" onClick={() => handleNavigation('next')}>
