@@ -70,7 +70,7 @@ const Contact = () => {
       <div className="relative flex items-center flex-col justify-center min-h-screen">
         <img src="/assets/terminal.png" alt="background terminal" className="absolute inset-0 min-h-screen" />
         <div className="contact-container">
-          <h3 className="head-text">Let s talk</h3>
+          <h3 className="head-text mt-10">Let s talk</h3>
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
             <label className="space-y-3">
               <span className="field-label">Full Name</span>

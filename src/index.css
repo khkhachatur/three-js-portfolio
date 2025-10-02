@@ -183,7 +183,7 @@ width: 60px;
     transform: rotate(0deg);
   }
   50% {
-    translate: 70vw 0;
+    translate: 60vw 0;
     transform: rotateY(180deg); 
   }
   
