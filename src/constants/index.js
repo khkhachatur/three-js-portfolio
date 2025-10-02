@@ -22,38 +22,14 @@ export const navLinks = [
 ];
 
 export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Emily Johnson',
+  //   position: 'Marketing Director at GreenLeaf',
+  //   img: 'assets/review1.png',
+  //   review:
+  //     'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+  // },
 ];
 
 export const myProjects = [
@@ -99,7 +75,7 @@ export const myProjects = [
     desc: 'A highly interactive landing page inspired by GTA6, featuring smooth GSAP animations, engaging visuals, and responsive layouts that adapt seamlessly across all devices.',
     subdesc:
       'Developed with GSAP, Tailwind CSS, and Vite, this project highlights performance, animation flow, and responsive design.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    href: '',
     texture: '/textures/project/gta6.mp4',
     logo: '/assets/gta6.png',
     logoStyle: {
@@ -166,7 +142,7 @@ export const myProjects = [
     subdesc:
       'A mobile digital menu for a beachfront restaurant, letting visitors to scan QR code, explore items, and place orders quickly and efficiently.',
 
-    texture: '/textures/project/project4.mp4',
+    texture: '/textures/project/qr-menu.mp4',
     logo: '/assets/the-beach.svg',
     logoStyle: {
       backgroundColor: '#E5D6C5',
@@ -198,7 +174,7 @@ export const myProjects = [
     subdesc:
       'It wasn’t about complex web development — it was about giving real help during a difficult time for people.',
     href: 'https://khkhachatur.github.io/ARTE-final/#',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/arma.mp4',
     logo: '/assets/arte.svg',
     logoStyle: {
       backgroundColor: '#B5B5B5',
@@ -237,32 +213,43 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
+    name: 'MDVIA Angola (lda)',
+    pos: 'Project Lead',
+    duration: '2023-current',
     title:
-      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
-    icon: '/assets/framer.svg',
-    animation: 'victory',
+      'Acted as the main point of contact for clients, gathering requirements and ensuring deliverables met expectations. Assigned tasks and coordinated efforts between team members to complete projects on schedule. Monitored progress, solved blockers, and reported project status to management. Improved communication and workflow efficiency, reducing project turnaround times.',
+    span: 'Currently leading the redesign of the MDVIA Angola website — developing a multipage informational site using React, Tailwind CSS, GSAP animations, and Figma-based designs.',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
+    name: 'MDVIA Angola (lda)',
+    pos: 'GIS Specialist & Technical Support',
+    duration: '2022-2023',
     title:
-      'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-    icon: '/assets/figma.svg',
-    animation: 'clapping',
+      'Created and maintained geospatial databases for field operations, improving accessibility for 10+ teams. Produced scaled maps and conducted spatial analysis for internal projects. Supported GPS and CCTV systems, reducing downtime by 20%.',
+    span: 'Additionally, I developed a Python-based OCR application that automated data extraction, significantly speeding up the team’s workflow.',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title:
-      'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
-    icon: '/assets/notion.svg',
-    animation: 'salute',
+    name: 'MDVIA Angola (lda)',
+    pos: 'SMM Specialist',
+    duration: '2021-2025',
+    title: 'Developed and executed digital marketing campaigns to boost brand presence.',
+  },
+  {
+    id: 4,
+    name: 'Lux Clean',
+    pos: 'Owner/Founder',
+    duration: '2020-2021',
+    title: 'Launched and managed a cleaning services business, handling operations, marketing, and client relations.',
+    span: 'To support operations, I built a small web-based application that streamlined service booking and client management.',
+  },
+  {
+    id: 5,
+    name: 'Benjamin Moore Armenia',
+    pos: 'SMM Specialist',
+    duration: '2017-2020',
+    title: 'Managed social media presence and increased engagement through targeted campaigns.',
+    span: 'In parallel, I led the redevelopment of the company website, migrating from WordPress to a modern React.js interface with an improved UI.',
   },
 ];

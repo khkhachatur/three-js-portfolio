@@ -28,7 +28,7 @@ const About = () => {
         </div>
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid2.png" className="w-full sm:h-[267px] h-fit object-contain" alt="grid-2" />
+            <img src="assets/tech-stack.png" className="w-full sm:h-[267px] h-fit object-contain" alt="tech-stack" />
             <div className="grid-headtext">Tech Stack</div>
             <div className="grid-subtext">
               Frontend: React, Vite, Next.js, JavaScript (ES6+), TypeScript <br />
